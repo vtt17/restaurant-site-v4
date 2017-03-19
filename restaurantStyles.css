@@ -1,0 +1,82 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color: #F2F2F2;
+}
+
+.title {
+	min-height: 70px;
+	background-color: #0B0B61;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	border-bottom: #a8491d 3px solid;
+	font-family: Arial black, courier, sans-serif;
+	font-style: italic;
+}
+.highlight {
+	color: #FF0040;
+}
+.pagelink {
+	min-height: 30px;
+	background-color: white;
+	padding-top: 10px;
+	border-bottom: #a8491d 3px solid;
+}
+.pagelink a {
+	color: #B40404;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+a:visited {
+	color: #9400D3;
+}
+a:hover {
+	font-weight: bold;
+}
+a:active {
+	text-decoration: none;
+}
+.pagelink ul {
+	margin: 0;
+	padding: 0;
+}
+.pagelink li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+#drink, #drink th, #drink td {
+	border: 5px #FFFFFF solid;
+	border-collapse: collapse;
+	width: 350px;
+	text-align: center;
+	margin: auto;
+	height: 35px;
+}
+#drink th {
+	font-size: 25px;
+	color: #0000CD;
+}
+#drinktable tbody tr:nth-child(odd) {
+  background-color: #F8F8FF;
+}
+#food {
+	padding-bottom: 30px;
+}
+#drinktable {
+	padding-bottom: 100px;
+}
+.lable {
+	font-weight: bold;
+}
+form {
+	padding-bottom: 30px;
+}
+.addressinfo {
+	text-align: center;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	background-color: #0B0B61;
+	color: white;
+}
